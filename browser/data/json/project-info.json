@@ -1,16 +1,17 @@
 {
 "date":"",
-"project_name" :"RedHat GlusterFS", 
-"project_url" :"http://incubator.apache.org/allura/",
+"project_name" :"RedHat GlusterFS",
+"project_url" :"http://www.gluster.org/",
 "scm_url":"https://github.com/apache/incubator-allura",
 "scm_name":"git://git.apache.org/incubator-allura.git",
 "scm_type":"git",
-"its_url":"http://sourceforge.net/p/allura/tickets/",
+"its_url":"https://bugzilla.redhat.com/buglist.cgi?product=GlusterFS",
 "its_name":"Tickets",
-"its_type":"",
-"mls_url":"http://incubator.apache.org/allura/mailing-lists.html",
+"its_type":"Bugzilla",
+"mls_url":"gluster-devel/lists.gnu.org/gluster-devel",
 "mls_name":"Mailing lists",
 "mls_type":"mailman",
 "producer":"",
 "blog_url":""
 }
+
