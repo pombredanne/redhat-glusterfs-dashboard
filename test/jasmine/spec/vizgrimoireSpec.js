@@ -26,7 +26,9 @@ describe("VizGrimoireJS data", function() {
                     return false;
                 }
             });
-            var max_days_old = 2;
+            // var max_days_old = 2;
+            // In glusterfs data is not updated so frecuently
+            var max_days_old = 20;
             var now = new Date();
             var update_time = new Date(update+"T00:00:00.000Z");
             var day_mseconds = 60*60*24*1000;
