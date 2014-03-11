@@ -1,1 +1,1 @@
-["glusterfs.git", "gluster-swift.git", "glusterfs-hadoop.git"]
+["glusterfs", "gluster-swift.git", "glusterfs-hadoop.git"]
