@@ -1,0 +1,17 @@
+{
+"date":"",
+"project_name" :"RedHat GlusterFS",
+"project_url" :"http://www.gluster.org/",
+"scm_url":"https://forge.gluster.org/glusterfs-core",
+"scm_name":"https://github.com/gluster/glusterfs.git",
+"scm_type":"git",
+"its_url":"https://bugzilla.redhat.com/buglist.cgi?product=GlusterFS",
+"its_name":"Tickets",
+"its_type":"Bugzilla",
+"mls_url":"http://lists.gnu.org/archive/html/gluster-devel/",
+"mls_name":"Mailing lists",
+"mls_type":"mailman",
+"producer":"",
+"blog_url":""
+}
+
