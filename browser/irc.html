@@ -24,9 +24,9 @@
     <link rel="stylesheet" type="text/css" id="theme" href="./css/vizgrimoire.css">
   </head>
   <body>
-    
+
     <div id="Navbar"></div>
-    
+
     <div class="container-fluid">
       <div class="row"><span class="SectionBreadcrumb col-md-12"></span></div>
 
@@ -42,7 +42,8 @@
 	<div class="well">
           <div class="MetricsEvol" data-data-source="irc"
                data-metrics="irc_sent" data-min="true" style="height: 160px;"
-               data-frame-time="true"></div>
+               ></div>
+               <!--data-frame-time="true"></div>-->
           <div class="MicrodashText" data-metric="irc_sent"></div>
 	</div>
       </div>
@@ -55,7 +56,9 @@
 	<div class="well">
           <div class="MetricsEvol" data-data-source="irc"
                data-metrics="irc_senders" data-min="true"
-               style="height: 120px;" data-frame-time="true"></div>
+               style="height: 120px;"
+               ></div>
+               <!--data-frame-time="true"></div>-->
           <div class="MicrodashText" data-metric="irc_senders"></div>
 	</div>
       </div>
@@ -70,13 +73,13 @@
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-body">
-	
+
 	<div class="row">
 	  <div class="col-md-12">
 	    <p class="section-title"><i class="fa fa-comment-o"></i> IRC Channels</p>
 	  </div>
 	</div>
-	
+
 	<div class="row">
 	  <div class="col-md-12">
 	    <table class="table">
@@ -92,7 +95,7 @@
 	  </div>
 	</div>
       </div>
-      
+
       <div class="panel-body">
 	<div class="Top" data-data-source="irc" data-period_all="true"
 	     data-metric="senders" data-limit="10" data-people_links="true">
@@ -109,7 +112,7 @@
         <div id="Footer"></div>
       </footer>
     </div>
-    
+
     <!-- Bootstrap core JavaScript
          ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -117,6 +120,12 @@
     <script src="./lib/bootstrap-3.1.1.min.js"></script>
     <script src="./lib/jasny-bootstrap-3.1.3.min.js"></script>
     <script src="./lib/vizgrimoire.min.js"></script>
+    <!-- Piwik code will be included here-->
+    <!-- Enter here your Piwik code -->
+
+<!-- End Piwik Code -->
+
+    <!-- End of Piwik code -->
   </body>
 </html>
 

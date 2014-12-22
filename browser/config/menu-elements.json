@@ -18,12 +18,11 @@
             "repos",
             "states"
 	],
-	"downloads": [],
-	"extra1": [
-	    ["Link 1", "http://bitergia.com"],
-	    ["Link 2", "https://twitter.com/bitergia"],
-	    ["Link 2", "https://twitter.com/flossmetrics"]
-	]
+    "irc":  [
+            "contributors",
+            "repos"
+    ],
+	"downloads": []
     },
-    "releases":[]
+    "releases": []
 }
